@@ -8,7 +8,7 @@ WORKDIR .
 COPY . /app
 
 # Instale as dependências do seu aplicativo
-RUN pip install --no-cache-dir -r app/requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 # Especifique o comando a ser executado quando o contêiner for iniciado
 CMD ["python", "manage.py runserver"]
