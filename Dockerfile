@@ -10,4 +10,4 @@ COPY . .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Especifique o comando a ser executado quando o contêiner for iniciado
-CMD ["python", "manage.py runserver"]
+CMD ["python", "manage.py", "runserver"]
