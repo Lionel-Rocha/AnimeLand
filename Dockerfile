@@ -2,7 +2,7 @@
 FROM python:3.8
 
 # Defina o diretório de trabalho dentro do contêiner
-WORKDIR /ecommerce
+WORKDIR .
 
 # Copie os arquivos necessários para o contêiner
 COPY . /app
