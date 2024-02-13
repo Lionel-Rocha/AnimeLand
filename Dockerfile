@@ -8,6 +8,6 @@ COPY . .
 
 # Instale as dependências do seu aplicativo
 RUN pip install --no-cache-dir -r requirements.txt
-
+EXPOSE 8000
 # Especifique o comando a ser executado quando o contêiner for iniciado
 CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
