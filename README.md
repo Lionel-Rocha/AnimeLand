@@ -19,8 +19,10 @@ Você vai ver o resultado em localhost, mas não necessitará de python.
 3. Abra o navegador e acesse http://localhost:8000
 
 ### Credenciais do Admin
-login: admin@email.com
+login: admin@email.com 
+
 senha: admin123 (ou admin12345)
 
 Qualquer fork ou sugestão é bem vinda! 🤗
+
 Contato: lionel.rocha.alves@gmail.com
